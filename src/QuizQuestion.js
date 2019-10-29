@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import QuizQuestionButton from "./QuizQuestionButton";
+import QuizQuestionsButton from "./QuizQuestionsButton";
 
 class QuizQuestion extends Component {
   render() {
@@ -10,7 +10,7 @@ class QuizQuestion extends Component {
         </section>
         <section className="buttons">
           <ul>
-            <QuizQuestionButton
+            <QuizQuestionsButton
               button_text={this.props.quiz_question.answer_options[0]}
             />
           </ul>
